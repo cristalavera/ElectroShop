@@ -1,4 +1,4 @@
-package com.electroshop.pdauf;
+package com.electroshop.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
