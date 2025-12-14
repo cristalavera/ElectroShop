@@ -13,6 +13,8 @@ import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 @RequestMapping("/productos")
+@CrossOrigin(origins = "http://localhost:5173")
+
 public class ProductoController {
 
     @Autowired
